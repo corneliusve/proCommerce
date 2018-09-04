@@ -1,0 +1,7 @@
+routes:
+    /:
+        uses: index
+        as: index
+    /products:
+        uses: products
+        as: index.products

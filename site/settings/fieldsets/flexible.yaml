@@ -1,0 +1,30 @@
+title: 'Flexible Page'
+sections:
+  main:
+    display: name
+    fields:
+      title_main:
+        type: markdown
+        localizable: true
+        display: title
+        width: 50
+      content_main:
+        type: markdown
+        display: content
+        width: 50
+  sidebar:
+    display: sidebar
+    fields:
+      has_sidebar:
+        type: toggle
+        display: 'enable sidebar'
+      title_sidebar:
+        type: markdown
+        localizable: true
+        display: title
+      content_side:
+        type: markdown
+        display: content
+        show_when:
+          has_sidebar: true
+taxonomies: true

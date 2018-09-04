@@ -1,0 +1,6 @@
+path: assets/images
+url: images
+title: images
+assets:
+  schermafbeelding-2018-08-27-om-10.48.44.png:
+    template: home
