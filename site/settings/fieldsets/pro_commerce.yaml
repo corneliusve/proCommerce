@@ -1,0 +1,17 @@
+title: 'Pro Commerce Fieldset'
+sections:
+  content:
+    display: Content
+    fields:
+      product_description:
+        type: markdown
+        display: Description
+      thumbnail_image:
+        container: images
+        folder: /
+        restrict: false
+        type: assets
+        instructions: 'Choose a product thumbnail image'
+        display: 'Thumbnail image'
+taxonomies: true
+create_title: 'Pro Commerce product'

@@ -14,7 +14,8 @@ class ProCommerceListener extends Listener
      */
     public $events = [
 
-		'cp.nav.created' => 'addNavItems'
+		'cp.nav.created' => 'addNavItems',
+		'cp.add_to_head'  => 'powerUp'
 
 	];
 
@@ -36,5 +37,12 @@ class ProCommerceListener extends Listener
         $nav->addTo('tools', $ProCommerce);
 
 	}
+
+	public function powerUp()
+    {
+		$html = $this->js->tag('pro-commerce');
+        $html .= $this->css->tag('pro-commerce');
+        return $html;
+    }
 
 }

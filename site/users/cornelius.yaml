@@ -1,6 +1,6 @@
 first_name: cornelius
-last_name: van Erkelens
+last_name: 'van Erkelens'
 email: corneliusve@hotmail.com
 super: true
-password_hash: admin
 id: 3784d3c6-3977-45c6-95a8-687641b04a95
+password_hash: $2y$10$Ofwb5ai8Xq05JQTslZsePOq5u.uTHb/AyHIxupUn/gTuDj0duxm5G

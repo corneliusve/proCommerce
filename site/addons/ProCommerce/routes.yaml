@@ -5,3 +5,6 @@ routes:
     /products:
         uses: products
         as: index.products
+    /startup:
+        uses: startup
+        as: startup
